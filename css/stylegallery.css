@@ -1,0 +1,28 @@
+.ft{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /* margin-left: 10%;*/
+    margin: 5%  15%;
+
+}
+.ft1{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.ft11 img {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 5%;
+
+}
+@media(max-width:900px){
+    .ft1{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .ft{
+        flex-direction: column;
+    }
+}

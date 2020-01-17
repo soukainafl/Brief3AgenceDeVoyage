@@ -1,0 +1,226 @@
+footer{
+    margin-top: 5%;
+    width: 100%;
+    
+}
+.explore img{
+    width: 10px;
+    height: 10px; 
+}
+.sendmail{
+    width: 100%;
+    background-image: url("../images/mon12.jpg");
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Open Sans;
+}
+.h1{
+    flex-basis: 40%;
+}
+.sendmail h1{
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.p{
+    flex-basis: 10%;
+}
+.logotext2{
+    color: #C49D48;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 40px;
+
+}
+.input{
+    flex-basis: 50%;
+}
+.sendmail p{
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.sendmail input{
+    margin-left: 200px;
+    padding: 10px 200px 10px 20px;
+}
+.input img{
+    width: 20%;
+    height: 20px;
+}
+.input button{
+    padding: 4px 25px 10px 5px;
+    background-color: #C49D48;
+    border: none;
+}
+.footer2{
+ display: flex;
+ width: 100%; 
+ flex-direction: row;
+ flex-wrap: wrap;
+ height: 300px;
+ font-size: 12px;
+ font-family: Open Sans;
+}
+.footer2 h3{
+    font-weight: bold;
+    color: #688095;
+}
+.footer2 ul {
+    list-style-image: url("../images/arrow.png");
+}
+.footer2 li{
+    color: #AAA9A9;
+}
+.box4 p{
+    color: #AAA9A9;
+}
+.box1{
+    flex-basis: 35%;   
+}
+
+.b1{
+    margin-top: 50px;
+    margin-left: 150px;
+    color: #688095;
+}
+.box1 img{
+    width: 10%;
+    height: 25px;
+}
+.box2{
+    flex-basis: 15%;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+.box3{
+    flex-basis: 15%;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.box4{
+    flex-basis: 20%;
+    margin-top: 40px;
+
+}
+.copyright{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #688095;
+    color: white;
+    font-size: 15px;
+}
+.box5{
+    flex-basis: 65%;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+
+.box6{
+    flex-basis: 10%;
+    margin-top: -10px;
+}
+.box7{
+    flex-basis: 25%;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+@media (max-width:900px)
+{
+
+
+    .sendmail
+    { 
+         flex-wrap:wrap;
+         height: max-content;
+         width: 100%;
+      flex-direction: column;
+       background-size: cover;
+        background-position: center;
+    }
+
+.sendmail p{
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+ 
+}
+.sendmail input{
+    margin-left:10px;
+    padding: 5px 50px 5px 10px;
+}
+.input img{
+    width: 10%;
+    height: 10px;
+}
+.input button{
+     margin-left:10px;
+   padding: 2px 15px 5px 3px;
+    background-color: #C49D48;
+    border: none;
+     justify-content: center;
+    
+}
+    
+   .sendmail h1 
+    { 
+       margin-left: 10px;
+       }
+   
+    .footer2
+    { 
+        margin-left: 0px;
+        flex-wrap: wrap;
+        font-size: 9px;
+        justify-content: space-around;
+        height: max-content;
+    }
+    .box1,.box4
+    { 
+        flex-basis:33%;
+        margin-left: 0px;
+        justify-content: space-around;
+        order: 1;
+       
+    }
+    .b1 { 
+
+    margin-left: 0;
+    }
+     .box2,.box3
+    {  flex-basis:40%;
+       margin-left: 0px;
+       justify-content: space-around;
+    }
+     
+    .copyright
+    { 
+        height: 100px;
+        flex-direction: column;
+   
+    }
+
+    .box5 ,.box6 ,.box7
+    {   
+     text-align: center;
+     margin-left: 0px;
+    }
+ 
+
+    
+    
+        
+    }
+
+
