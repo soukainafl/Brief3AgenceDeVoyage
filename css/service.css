@@ -166,16 +166,6 @@ a{
     }
 }
 
-        /* }.destinationimg{
-            width: 70%;
-        }
-        .destinationtext{
-            margin-top: 40%;
-
-        }
-        .destinationimg img{
-            display: none;
-        } */
     
         @media (max-width:500px)  {
             .logo{
@@ -246,27 +236,14 @@ a{
 }
 h3 { color: #C49D48;}
 
-.phrse1{ 
+.phrse1 ,.phrse2,.phrse3{ 
     flex-basis: 30%;
     background-color: #E2EAF0; 
 
     height: 600px;
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
-.phrse2{ 
-    flex-basis:30%;
-    background-color: #E2EAF0;
-    height: 600px;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
-}
-.phrse3{  
-    
-    flex-basis: 30%;
-    background-color: #E2EAF0;
-    
-    height: 600px;
-      box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
-}
+
 .icon {  text-align: center;
         height: 200px;
   
@@ -309,7 +286,7 @@ h3 { color: #C49D48;}
      margin-top: 20px;
     margin-bottom: 40px;
     height: 500px;
-   background-color: red;
+
 }
 .photo3
 {
@@ -324,6 +301,7 @@ h3 { color: #C49D48;}
     
 }
 
+ 
 
 .galrie2{ 
     display: flex;
@@ -397,20 +375,23 @@ h3 { color: #C49D48;}
         flex-direction: column;
         padding: 10%;
     
-      
+     
+        
   }
-    .phrse1, .phrse2 , .phrse3
+     .phrse1, .phrse2 , .phrse3
     { 
         margin-bottom: 20px;
     }
-    .galrie
+  .galrie
     {
    
        flex-wrap: wrap;
     
         
     }
- .photo1{ 
+   
+    
+ .photo1,.photo3{ 
     
      flex-basis: 40%;
      margin-bottom: 20px;
@@ -425,26 +406,27 @@ h3 { color: #C49D48;}
 
      }
     
-     .photo3 { 
+     /* .photo3 { 
          
       flex-basis: 40%;
      margin-bottom: 20px;
       order: 1;
          
-     }
+     } */
 .h23{
     margin-top: 550px;
 }
  .galrie2
     { 
  
-        flex-flow: row wrap;
+        flex-flow:  wrap;
        height: 1000px;
+    
     }
     .photo4 { 
          
   
-   flex-basis: 40%;
+          flex-basis: 40%;
           margin-bottom: 20px;
      }
     .photo5 { 
@@ -506,6 +488,9 @@ h3 { color: #C49D48;}
 }
 .input{
     flex-basis: 50%;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
 }
 .sendmail p{
     margin-left: 200px;

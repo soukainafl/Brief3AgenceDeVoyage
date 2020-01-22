@@ -37,6 +37,9 @@ footer{
 .input{
     flex-basis: 50%;
 }
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
 .sendmail p{
     margin-left: 200px;
     font-size: 12px;
